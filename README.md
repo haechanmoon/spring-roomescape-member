@@ -253,6 +253,12 @@ erDiagram
 - [x] 단순 문자열 반환하는것이 아닌 JSON객체 반환되도록 수정
 
 - **DAO**
-- [ ] exist는 0과1을 반환하기 때문에 Boolean.class이용하도록 수정
+- [x] exist는 0과1을 반환하기 때문에 `Integer.class` 대신 `Boolean.class`이용하도록 수정
+
+- **가짜서버란 무엇일까?**
+- [ ] ㅇ
+
+- **스프링의 컨테이너 재활용 타이밍**
+- [ ] ㅇ
 
 </details>
