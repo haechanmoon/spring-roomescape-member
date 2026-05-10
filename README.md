@@ -245,3 +245,14 @@ erDiagram
 - [x] `EmptyResultDataAccessException` 대체할 예외 찾기(너무 구체적이기 때문에)
 
 </details>
+
+<details>
+<summary>두번째 리뷰 리팩토링</summary>
+
+- **GlobalExceptionHandler**
+- [x] 단순 문자열 반환하는것이 아닌 JSON객체 반환되도록 수정
+
+- **DAO**
+- [ ] exist는 0과1을 반환하기 때문에 Boolean.class이용하도록 수정
+
+</details>
