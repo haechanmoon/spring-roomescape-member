@@ -256,9 +256,13 @@ erDiagram
 - [x] exist는 0과1을 반환하기 때문에 `Integer.class` 대신 `Boolean.class`이용하도록 수정
 
 - **가짜서버란 무엇일까?**
-- [ ] ㅇ
+- [x] 테스트에 SpringBootTest에서 `DEFINED_PORT`를 입력하면 8080포트를 열어서 HTTP 요쳥받을 수 있는 서버를 띄운다.
+  하지만 `webEnvironment=NONE`으로 하면 포트는 열지 않는다. 컨테이너는 있지만, HTTP 요청은 받을 수 없는 상태가 된다.
+- [x] `DirtiesContext`를 쓰지 않을 때? -> 스프링은 최대한 재활용하려고 한다!
 
 - **스프링의 컨테이너 재활용 타이밍**
-- [ ] ㅇ
+- [x] 컨테이너의 설정이 달라졌을 때 이다!
+- [x] ex) `SpringBootTest -> SpringBootTest` 컨테이너 재활용
+- [x] ex) `SpringBootTest -> JdbcTest` 컨테이서 새로 만듦
 
 </details>
